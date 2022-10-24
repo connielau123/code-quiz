@@ -78,7 +78,7 @@ function onStartGame() {
     }, 1000);
 
     // Hide the welcome section 
-    welcomne.style.display = 'none';
+    welcome.style.display = 'none';
     result.style.display = 'none';
     quiz.style.display = 'flex';
 
@@ -158,7 +158,8 @@ function displayQuestion() {
     }
 
     // Load question information from the question array 
-    var question = question[currentQuestion];
+    var question = questions[currentQuestion];
+    console.log(question)
     document.getElementById("question").textContent = question.title
    
     // Clear any existing options

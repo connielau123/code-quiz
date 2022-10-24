@@ -1,4 +1,4 @@
-var scoresheet = document.getElementById("scoresheet")
+// var scoresheet = document.getElementById("scoresheet")
 var backtoQuiz = document.getElementById("backtoQuiz")
 
 function onBackToQuiz() {
@@ -13,7 +13,7 @@ for (var i = 0; i < localStorage.length; i++) {
     var result = document.createElement("div");
     result.classList.add('result');
 
-    scoresheet.appendChild(result);
+    // scoresheet.appendChild(result);
 }
 
-backtoQuiz.addEventListener("click", onBackToQuiz);
+// backtoQuiz.addEventListener("click", onBackToQuiz);
