@@ -1,0 +1,96 @@
+:root {
+    --outer-space: #33393f;
+    --bright-turquoise: #2aefcb;
+    --gin: #e0eae4;
+    --heliotrope: #e866ec;
+  }
+
+body {
+    font-family: Arial;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--gin);
+    background-color: var(--outer-space);
+}
+
+#highscores {
+    font-size: 3rem;
+    line-height: 3;
+    color: white;
+}
+
+#timer {
+    font-size: 1rem;
+    color: white;
+}
+
+#welcome {
+    font-size: 3rem;
+    line-height: 3;
+    color: #e866ec;
+}
+
+#startquiz {
+    color: #e866ec;
+}
+
+.btn {
+    background-color: #431544;
+    top: 50%; 
+}
+
+#quiz {
+    background-color: white;
+
+}
+
+.hidden {
+    background-color: white;
+}
+
+#question {
+    color: #431544;
+}
+
+#options {
+    color: #e866ec;
+}
+
+#message {
+    color: #e866ec;
+}
+
+#result {
+    color: #431544;
+}
+
+#summary {
+    color: #431544;
+}
+
+#viewscores {
+    color: white;
+}
+
+#initials {
+    color: #431544;
+}
+
+#savescore {
+    color: white;
+}
+
+#playagain {
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        width: 50%;
+      } }
+
+@media screen and (min-width: 992px) {
+    header {
+      width: 75%;
+    } }
