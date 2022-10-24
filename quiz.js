@@ -17,6 +17,11 @@ var score = 0;
 var currentQuestion = 0;
 var countdownTimer;
 
+var start = true;
+
+// Getting the question
+const question = document.getElementById("question");
+
 var questions = [
     {
         id: 0, 
@@ -49,12 +54,6 @@ var questions = [
         answer: 'console.log',
     }, 
 ]
-
-var startquiz = true; 
-if (startquiz) {
-    iterate("0");
-}
-
 function onStartGame() {
 
     // Set the timer at 75 seconds 
